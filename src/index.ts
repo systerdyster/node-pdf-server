@@ -40,11 +40,6 @@ server.setConfig( ( app : any ) => {
                     500: {},
                 },
                 models: {
-                    PDFOptions: {
-                        properties: {
-                            
-                        }
-                    }
                 }
             },
         }
