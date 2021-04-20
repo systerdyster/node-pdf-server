@@ -1,0 +1,20 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "strict": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "es6",
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist",
+        "lib": ["es6", "DOM"],
+        "types": ["reflect-metadata", "swagger-express-ts"],
+        "baseUrl": "./"
+    },
+    "include": ["./src"],
+    "exclude": ["./node_modules", "./dist"]
+}
